@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ContactUs</title>
+<link rel="icon"  href="favicon.png" type="image/x-icon">
+<meta charset="utf-8">
+<style>
+h1 { 	background-image: url(logoo.jpg);
+ 		background-repeat: no-repeat;
+ 		font-size: 4em;
+ 		padding-left: 300px;
+ 		padding-top: 30px;
+ 		border-radius: 15px 15px; }
+
+form { background-color: #EAEAEA;
+  position: relative;
+       font-family: Arial, sans-serif;
+       width: 350px; padding: 10px; }
+       label { float: left; clear: left; display: block;
+               width: 100px; padding-right: 10px;
+               margin-top: 10px; text-align: right; }
+input { display: block; margin-top: 10px; }
+textarea { display: block; margin-top: 10px; }
+input[type="submit"] { margin-left: 110px; }
+nav {   font-size: 120%; }
+
+nav ul { padding-left: 0;
+         display: flex;
+	     flex-direction: row;
+	     flex-wrap: wrap;
+	     justify-content: space-around; }
+nav ul { list-style-type: none; }
+nav li { width: 20%;
+		 min-width: 6em;
+	     font-size: 110%;
+		 text-align: center;
+		 background-color: #0C97A4;
+		 margin: .5em;
+		 padding: .5em; }
+nav a { text-decoration: none;}
+nav a:link { color: #F7F1E3; }
+nav a:visited { color: #FFB142; }
+nav a:hover { color: #2C2C54; }
+form {position: absolute;}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+</style>
+</head>
+<body>
+  <h1>Contact Us</h1>
+  <nav>
+    <ul>
+  <li><a href="index.html">Home</a> </li>
+  <li><a href="Nanonews.html">NanoNews</a> </li>
+  <li><a href="Nanotheory.html">NanoTheory</a> </li>
+  <li><a href="Projects.html">Projects</a> </li>
+  <li><a href="Buy.html">Buy</a> </li>
+  <li><a href="contact.html">ContactUs</a></li>
+  </ul>
+  </nav>
+
+<form method="get">
+<label for="myName">Name:</label>
+<input type="text" name="myName" id="myName">
+<label for="myEmail">E-mail:</label>
+<input type="text" name="myEmail" id="myEmail">
+<label for="myComments">Comments:</label>
+<textarea name="myComments" id="myComments" rows="2" cols="20"></textarea>
+<input id="mySubmit" type="submit" value="Submit">
+</form>
+</body>
+<div class="footer">
+  <p>Copyright &copy; 2023 Michelle Salgado</p>
+</div>
+</html>
